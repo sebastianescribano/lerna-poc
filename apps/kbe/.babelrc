@@ -1,0 +1,1 @@
+{ "extends": "../../packages/shared-config/.babelrc" }

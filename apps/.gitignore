@@ -1,0 +1,32 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+
+# dependencies
+/node_modules
+
+# next.js
+/.next
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# i18n
+src/assets/langs/
+static/langs/
+
+# Checksums
+static/checksums.json
+
+# others
+npm-debug.log
+npm-debug.log.*
+/.vscode
+/coverage
+/.env
+issues.json
+wallaby.js
+.history_commit_messages
+.idea/

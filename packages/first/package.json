@@ -1,0 +1,26 @@
+{
+  "name": "first",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Sebastian Escribano <sebastian.escribano@kognitiv.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "index.js",
+  "directories": {
+    "src": "src",
+    "dist": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://nexus.seekda.com/repository/npm-all/"
+  },
+  "scripts": {
+    "transpile": "babel src -d dist --ignore '**/*.spec.js,**/*.stories.js'",
+    "jest": "jest --coverage --verbose --color"
+  }
+}

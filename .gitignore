@@ -4,7 +4,7 @@
 /dist
 
 # dependencies
-/node_modules/*
+*/node_modules/*
 
 # next.js
 /.next
@@ -31,3 +31,4 @@ wallaby.js
 .history_commit_messages
 .idea/
 yarn-error.log
+node_modules

@@ -3010,6 +3010,11 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
+first@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/first/-/first-0.0.1.tgz#cd218f6bb03ff5ca45f15fa6068dca3ea048daea"
+  integrity sha1-zSGPa7A/9cpF8V+mBo3KPqBI2uo=
+
 flush-write-stream@^1.0.0:
   version "1.1.1"
   resolved "https://nexus.seekda.com/repository/npm-all/flush-write-stream/-/flush-write-stream-1.1.1.tgz#8dd7d873a1babc207d94ead0c2e0e44276ebf2e8"

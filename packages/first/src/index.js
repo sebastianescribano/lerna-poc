@@ -2,7 +2,7 @@
 
 const first = function() {
    console.log('AAAAe');
-   return;
+   return 'asd';
 }
 
 export default first;

@@ -7,7 +7,7 @@ exports.default = void 0;
 
 var first = function first() {
   console.log('AAAAe');
-  return;
+  return 'asd';
 };
 
 var _default = first;

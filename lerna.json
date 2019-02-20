@@ -3,7 +3,7 @@
     "packages/*",
     "apps/*"
   ],
-  "version": "0.0.1",
+  "version": "indepndent",
   "lerna": "3.10.8", 
   "useWorkspaces": true,
   "npmClient": "yarn"

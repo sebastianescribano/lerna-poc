@@ -1,8 +1,15 @@
 'use strict';
 
-const first = function () {
-  console.log('AAAAA');
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var first = function first() {
+  console.log('AAAAe');
   return;
 };
 
-export default first;
+var _default = first;
+exports.default = _default;
+module.exports = exports.default;

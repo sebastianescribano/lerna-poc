@@ -1,0 +1,17 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.13.0',
+0 silly argv   '$0': 'lerna' }
+1 notice cli v3.13.0
+2 verbose rootPath /home/gian/Documents/Gianfranco/lerna-poc
+3 info versioning independent
+4 error Error: Invalid package name "@arz-first": name can only contain URL-friendly characters
+4 error     at invalidPackageName (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/npm-package-arg/npa.js:82:15)
+4 error     at Result.setName (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/npm-package-arg/npa.js:118:11)
+4 error     at new Result (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/npm-package-arg/npa.js:107:23)
+4 error     at Function.resolve (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/npm-package-arg/npa.js:54:15)
+4 error     at Object.keys.forEach.depName (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/@lerna/package-graph/index.js:109:30)
+4 error     at Array.forEach (<anonymous>)
+4 error     at PackageGraph.forEach (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/@lerna/package-graph/index.js:103:38)
+4 error     at Map.forEach (<anonymous>)
+4 error     at new PackageGraph (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/@lerna/package-graph/index.js:92:10)

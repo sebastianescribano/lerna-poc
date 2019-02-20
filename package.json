@@ -20,7 +20,7 @@
     "react-test-renderer": "^16.8.2"
   },
   "workspaces": [
-    "packages/*",
+    "packages/**",
     "apps/*"
   ]
 }

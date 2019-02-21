@@ -26,10 +26,5 @@
   },
   "dependencies": {
     "@seekda/shared-config": "^0.0.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lerna run test"
-    }
   }
 }

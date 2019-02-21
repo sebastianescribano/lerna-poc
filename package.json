@@ -5,11 +5,13 @@
   "devDependencies": {
     "lerna": "^3.10.8"
   },
-  "scripts": {
-    "transpile": "npm run transpile"
-  },
   "workspaces": [
     "@seekda/**",
     "apps/*"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-push": "lerna run transpile && lerna run jest"
+    }
+  }
 }

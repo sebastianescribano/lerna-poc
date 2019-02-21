@@ -18,7 +18,6 @@
     "babel-plugin-add-module-exports": "^1.0.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.9.1",
     "eslint": "5.9.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.14.0",

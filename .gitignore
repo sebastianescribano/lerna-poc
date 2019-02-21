@@ -37,3 +37,4 @@ lerna-debug.log
 /apps/*/coverage/*
 /apps/*/dist/*
 @seekda/*/dist/index.js
+lerna-debug.log

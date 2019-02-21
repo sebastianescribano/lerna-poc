@@ -1,17 +1,20 @@
-0 silly argv { _: [ 'publish' ],
-0 silly argv   composed: 'publish',
-0 silly argv   lernaVersion: '3.13.0',
-0 silly argv   '$0': 'lerna' }
+0 silly argv { _: [ 'clean' ], lernaVersion: '3.13.0', '$0': 'lerna' }
 1 notice cli v3.13.0
-2 verbose rootPath /home/gian/Documents/Gianfranco/lerna-poc
+2 verbose rootPath /home/arzion/dev/lerna/zero
 3 info versioning independent
-4 error Error: Invalid package name "@arz-first": name can only contain URL-friendly characters
-4 error     at invalidPackageName (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/npm-package-arg/npa.js:82:15)
-4 error     at Result.setName (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/npm-package-arg/npa.js:118:11)
-4 error     at new Result (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/npm-package-arg/npa.js:107:23)
-4 error     at Function.resolve (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/npm-package-arg/npa.js:54:15)
-4 error     at Object.keys.forEach.depName (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/@lerna/package-graph/index.js:109:30)
-4 error     at Array.forEach (<anonymous>)
-4 error     at PackageGraph.forEach (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/@lerna/package-graph/index.js:103:38)
-4 error     at Map.forEach (<anonymous>)
-4 error     at new PackageGraph (/home/gian/Documents/Gianfranco/lerna-poc/node_modules/@lerna/package-graph/index.js:92:10)
+4 info Removing the following directories:
+5 info clean @seekda/first/node_modules
+5 info clean @seekda/second/node_modules
+5 info clean @seekda/shared-config/node_modules
+5 info clean apps/kbe/node_modules
+6 info clean removing /home/arzion/dev/lerna/zero/@seekda/first/node_modules
+7 silly rimrafDir /home/arzion/dev/lerna/zero/@seekda/first/node_modules
+8 info clean removing /home/arzion/dev/lerna/zero/@seekda/second/node_modules
+9 silly rimrafDir /home/arzion/dev/lerna/zero/@seekda/second/node_modules
+10 info clean removing /home/arzion/dev/lerna/zero/@seekda/shared-config/node_modules
+11 silly rimrafDir /home/arzion/dev/lerna/zero/@seekda/shared-config/node_modules
+12 info clean removing /home/arzion/dev/lerna/zero/apps/kbe/node_modules
+13 silly rimrafDir /home/arzion/dev/lerna/zero/apps/kbe/node_modules
+14 error Error: Command failed: /usr/bin/node /home/arzion/dev/lerna/zero/node_modules/rimraf/bin.js --no-glob /home/arzion/dev/lerna/zero/@seekda/shared-config/node_modules/
+14 error     at makeError (/home/arzion/dev/lerna/zero/node_modules/execa/index.js:174:9)
+14 error     at Promise.all.then.arr (/home/arzion/dev/lerna/zero/node_modules/execa/index.js:278:16)

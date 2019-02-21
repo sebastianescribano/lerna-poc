@@ -24,7 +24,7 @@
     "jest": "jest --coverage --verbose --color",
     "lint": "eslint src/**/*.js __tests__/**/*.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "@seekda/shared-config": "^0.1.0"
   }
 }

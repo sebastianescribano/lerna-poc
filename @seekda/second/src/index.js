@@ -1,5 +1,5 @@
 
-const first = require('@packages/first');
+const first = require('@seekda/first');
 
 const second = function () {
     console.log('Inside second: ', first());

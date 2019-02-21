@@ -7,7 +7,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@packages/first": "^0.0.4"
+    "@packages/first": "^0.0.4",
+    "@packages/second": "^0.0.1"
   },
   "scripts": {
     "transpile": "babel src -d dist --ignore '**/*.spec.js,**/*.stories.js'",

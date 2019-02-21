@@ -1,8 +1,7 @@
 'use strict';
 
 const first = function() {
-   console.log('AAAAe');
-   return 'asd';
+   console.log('First');
 }
 
 export default first;

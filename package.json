@@ -1,7 +1,7 @@
 {
   "name": "root",
   "private": true,
-  "main": "packages/apps/kbe/src/index.js",
+  "main": "apps/kbe/src/index.js",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",

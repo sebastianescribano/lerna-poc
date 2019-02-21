@@ -1,14 +1,14 @@
 {
   "name": "kbe",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "",
   "private": true,
   "main": "src/index.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@packages/first": "^0.0.4",
-    "@packages/second": "^0.0.1"
+    "@packages/first": "^0.0.5",
+    "@packages/second": "^0.0.2"
   },
   "scripts": {
     "transpile": "babel src -d dist --ignore '**/*.spec.js,**/*.stories.js'",

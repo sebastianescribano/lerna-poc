@@ -1,6 +1,6 @@
 {
   "name": "@seekda/second",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "Sebastian Escribano <sebastian.escribano@kognitiv.com>",
   "homepage": "",
@@ -23,7 +23,7 @@
     "lint": "eslint src/**/*.js __tests__/**/*.js"
   },
   "dependencies": {
-    "@seekda/first": "^0.0.5",
-    "@seekda/shared-config": "^0.0.1"
+    "@seekda/first": "^0.1.0",
+    "@seekda/shared-config": "^0.1.0"
   }
 }

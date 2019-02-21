@@ -24,9 +24,10 @@ static/checksums.json
 npm-debug.log
 npm-debug.log.*
 /.vscode
-/coverage
+/*/coverage/*
 /.env
 issues.json
 wallaby.js
 .history_commit_messages
 .idea/
+./*/dist/*

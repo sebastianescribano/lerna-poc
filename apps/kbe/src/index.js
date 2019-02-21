@@ -1,5 +1,5 @@
-const first = require('@packages/first')
-const second = require('@packages/second')
+const first = require('@seekda/first')
+const second = require('@seekda/second')
 
 console.log(first())
 console.log(second())

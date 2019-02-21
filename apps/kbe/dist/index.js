@@ -1,8 +1,8 @@
 "use strict";
 
-var first = require('@packages/first');
+var first = require('@seekda/first');
 
-var second = require('@packages/second');
+var second = require('@seekda/second');
 
 console.log(first());
 console.log(second());

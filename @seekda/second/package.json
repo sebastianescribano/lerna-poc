@@ -1,5 +1,5 @@
 {
-  "name": "@packages/second",
+  "name": "@seekda/second",
   "version": "0.0.2",
   "description": "> TODO: description",
   "author": "Sebastian Escribano <sebastian.escribano@kognitiv.com>",
@@ -19,9 +19,11 @@
   },
   "scripts": {
     "transpile": "babel src -d dist --ignore '**/*.spec.js,**/*.stories.js'",
-    "jest": "jest --coverage --verbose --color"
+    "jest": "jest --coverage --verbose --color",
+    "lint": "eslint src/**/*.js __tests__/**/*.js"
   },
   "dependencies": {
-    "@packages/first": "^0.0.5"
+    "@seekda/first": "^0.0.5",
+    "@seekda/shared-config": "^0.0.1"
   }
 }

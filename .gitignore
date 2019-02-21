@@ -32,3 +32,8 @@ wallaby.js
 .idea/
 yarn-error.log
 node_modules
+lerna-debug.log
+/**/coverage/*
+/apps/*/coverage/*
+/apps/*/dist/*
+@seekda/*/dist/index.js
